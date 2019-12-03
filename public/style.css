@@ -1,0 +1,52 @@
+button {
+  border: none;
+  outline: none;
+}
+
+.container {
+  width: 550px;
+  height: 600px;
+  border: 1px solid #eee;
+}
+
+.center {
+  display: block;
+  margin: 0 auto;
+}
+
+.img-container {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  padding: none;
+}
+
+.item-tile {
+  padding: 2px;
+  width: 53px;
+  height: 53px;
+  margin-left: 7px;
+}
+
+.item-tile:not(.selected) {
+  outline: 1px solid #085eba;
+}
+
+.selected {
+  border: 2px solid #49494a;
+  outline: none;
+  padding: 0;
+}
+
+.btn-tile {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.img-tile {
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
+}

@@ -6,13 +6,12 @@ class App extends Component {
     super();
     this.state = {
       main: 'img1.jpg',
-      images: ['img1.jpg', 'img2.jpg', 'img3.jpg', 'img4.jpg', 'img5.jpg'],
-      selected: ''
+      images: ['img1.jpg', 'img2.jpg', 'img3.jpg', 'img4.jpg', 'img5.jpg']
     };
   }
 
   mouseEnterHandler(evt) {
-    this.setState({ selected: evt.target.dataset.src, main: evt.target.dataset.src });
+    this.setState({ main: evt.target.dataset.src });
   }
 
   render() {
@@ -21,7 +20,7 @@ class App extends Component {
         <button className="center">
           <img src={`../images/${this.state.main}`} />
         </button>
-        <ImageContainer images={this.state.images} mouseEnterHandler={this.mouseEnterHandler.bind(this)} selected={this.state.selected} />
+        <ImageContainer images={this.state.images} mouseEnterHandler={this.mouseEnterHandler.bind(this)} main={this.state.main} />
       </div>
     );
   }

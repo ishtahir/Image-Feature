@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import MainImage from './MainImage.jsx';
 import ImageContainer from './ImageContainer.jsx';
 
 class App extends Component {
@@ -17,9 +18,7 @@ class App extends Component {
   render() {
     return (
       <div className="container">
-        <button className="center">
-          <img src={`../images/${this.state.main}`} />
-        </button>
+        <MainImage img={this.state.main} />
         <ImageContainer images={this.state.images} mouseEnterHandler={this.mouseEnterHandler.bind(this)} main={this.state.main} />
       </div>
     );

@@ -1,6 +1,5 @@
 button {
   border: none;
-  outline: none;
 }
 
 .container {
@@ -62,9 +61,9 @@ button {
 }
 
 .modal-content {
-  width: 94%;
+  width: 90%;
   height: 400px;
-  top: 45%;
+  top: 40%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
   max-height: 600px;
@@ -91,7 +90,7 @@ button {
 }
 
 .modal-bg .modal-content .close-btn:focus {
-  outline: none;
+  outline: aqua;
 }
 
 i.fas {

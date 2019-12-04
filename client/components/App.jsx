@@ -28,7 +28,7 @@ class App extends Component {
           <img src={`../images/${this.state.main}`} />
         </button>
         <ImageContainer images={this.state.images} mouseEnterHandler={this.mouseEnterHandler.bind(this)} selected={this.state.selected} />
-        <Modal showModal={this.state.showModal} />
+        <Modal showModal={this.state.showModal} toggleModal={this.toggleModal.bind(this)} />
       </div>
     );
   }

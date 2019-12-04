@@ -15,22 +15,13 @@ class App extends Component {
     this.setState({ selected: evt.target.dataset.src, main: evt.target.dataset.src });
   }
 
-  mouseLeaveHandler(evt) {
-    this.setState({ selected: '' });
-  }
-
   render() {
     return (
       <div className="container">
         <button className="center">
           <img src={`../images/${this.state.main}`} />
         </button>
-        <ImageContainer
-          images={this.state.images}
-          mouseEnterHandler={this.mouseEnterHandler.bind(this)}
-          mouseLeaveHandler={this.mouseLeaveHandler.bind(this)}
-          selected={this.state.selected}
-        />
+        <ImageContainer images={this.state.images} mouseEnterHandler={this.mouseEnterHandler.bind(this)} selected={this.state.selected} />
       </div>
     );
   }

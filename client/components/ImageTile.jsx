@@ -5,7 +5,7 @@ const ImageTile = props => {
     <li
       className={`item-tile ${props.main === props.src ? 'selected' : ''}`}
       onClick={() => {
-        props.showModal ? props.changePic(props.src) : props.toggleModal();
+        props.showModal ? props.changePic(props.src) : props.toggleModal(props.src);
       }}
     >
       <button className="btn-tile">

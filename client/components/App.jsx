@@ -15,7 +15,7 @@ class App extends Component {
   }
 
   mouseEnterHandler(evt) {
-    this.setState({ main: evt.target.dataset.src, modalMain: evt.target.dataset.src });
+    this.setState({ main: evt.target.dataset.src });
   }
 
   toggleModal(img) {
@@ -24,6 +24,17 @@ class App extends Component {
 
   changePic(src) {
     this.setState({ modalMain: src });
+  }
+
+  modalImageButtonScroll(direction) {
+    let index = this.state.images.indexOf(this.state.modalMain);
+    if (direction === 'l' && index > 0) {
+      index--;
+    }
+    if (direction === 'r' && index < this.state.images.length - 1) {
+      index++;
+    }
+    this.setState({ modalMain: this.state.images[index] });
   }
 
   render() {
@@ -47,6 +58,8 @@ class App extends Component {
           images={this.state.images}
           changePic={this.changePic.bind(this)}
           modalMain={this.state.modalMain}
+          modalImageButtonScroll={this.modalImageButtonScroll.bind(this)}
+          main={this.state.main}
         />
       </div>
     );

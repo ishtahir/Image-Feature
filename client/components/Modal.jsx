@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import MainImage from './MainImage.jsx';
+import ImageContainer from './ImageContainer.jsx';
 
 const Modal = props => {
   if (!props.showModal) {
@@ -12,19 +14,16 @@ const Modal = props => {
           <div className="close-btn" onClick={props.toggleModal}>
             ×
           </div>
-          <h1>Testing Modal</h1>
-          <button>
-            <i className="fas fa-chevron-left"></i>
-          </button>
-          <div className="text-container">
-            <span>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Et magni beatae libero, quaerat praesentium nulla magnam quae consectetur?
-              Perferendis, voluptates.
-            </span>
+          <div className="modal-img-container">
+            <button>
+              <i className="fas fa-chevron-left"></i>
+            </button>
+            <MainImage img={props.modalMain} />
+            <button>
+              <i className="fas fa-chevron-right"></i>
+            </button>
           </div>
-          <button>
-            <i className="fas fa-chevron-right"></i>
-          </button>
+          <ImageContainer images={props.images} changePic={props.changePic} showModal={props.showModal} />
         </div>
       </div>
     );

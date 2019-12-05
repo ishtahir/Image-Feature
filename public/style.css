@@ -1,5 +1,11 @@
 button {
   border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+ul {
+  padding: 0;
 }
 
 .container {
@@ -61,17 +67,14 @@ button {
 }
 
 .modal-content {
-  width: 90%;
-  height: 400px;
-  top: 40%;
-  left: 50%;
-  transform: translateX(-50%) translateY(-50%);
+  position: relative;
+  background-color: #fff;
+  text-align: center;
   max-height: 600px;
   padding: 30px 20px;
-  background-color: #fff;
+  margin: 15px 15px 130px;
+  width: auto;
   overflow: auto;
-  text-align: center;
-  position: relative;
 }
 
 .modal-bg .modal-content .close-btn {
@@ -98,7 +101,15 @@ i.fas {
   color: #0046be;
 }
 
-.text-container {
-  display: inline-block;
+.modal-img-container img {
   width: 80%;
+}
+
+.modal-img-container {
+  display: flex;
+}
+
+.disabled {
+  color: #c5cbd5 !important;
+  cursor: default;
 }

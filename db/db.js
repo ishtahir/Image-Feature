@@ -10,16 +10,23 @@ const connection = mysql.createConnection({
 connection.connect();
 
 const addToDB = (values, callback) => {
-  connection.query(
-    `INSERT IGNORE INTO inventory (id, name, price, links, sku, model, stock) VALUES (${values.id}, '${values.name}', ${values.price}, '${values.links}', '${values.sku}', ${values.model}, ${values.stock})`,
-    (err, result) => {
-      if (err) {
-        callback(err, null);
-      } else {
-        callback(null, result);
-      }
+  connection.query(`INSERT IGNORE INTO inventory (id, links, sku) VALUES (${values.id}, '${values.links}', '${values.sku}')`, (err, result) => {
+    if (err) {
+      callback(err, null);
+    } else {
+      callback(null, result);
     }
-  );
+  });
 };
 
-module.exports = { addToDB };
+const getFromDB = (sku, callback) => {
+  connection.query(`SELECT * FROM inventory WHERE sku='${sku}'`, (err, result) => {
+    if (err) {
+      callback(err, null);
+    } else {
+      callback(null, result);
+    }
+  });
+};
+
+module.exports = { addToDB, getFromDB };

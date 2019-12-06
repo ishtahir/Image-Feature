@@ -4,20 +4,31 @@ const inventory = require('./inventory.js');
 const app = express();
 
 app.use(express.static('public'));
+app.use(express.json());
 
 app.get('/add', (req, res) => {
   inventory.forEach(item => {
-    db.addToDB(
-      { id: item.id, name: item.name, price: item.price, links: item.links, sku: item.sku, model: item.model, stock: item.stock },
-      (err, result) => {
-        if (err) {
-          console.log(err);
-          return;
-        }
+    db.addToDB({ id: item.id, links: JSON.stringify(item.links), sku: item.sku }, (err, result) => {
+      if (err) {
+        console.log(err);
+        return;
+      } else {
+        console.log(result);
       }
-    );
+    });
   });
-  res.end('Thanks');
+  res.send('help');
+});
+
+app.post('/images', (req, res) => {
+  const sku = req.body.sku;
+  db.getFromDB(sku, (err, result) => {
+    if (err) {
+      res.send(err);
+    } else {
+      res.send(result);
+    }
+  });
 });
 
 app.listen(4015, () => console.log('Server running on port 4015'));

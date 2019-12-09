@@ -1,13 +1,4 @@
-const mysql = require('mysql');
-
-const connection = mysql.createConnection({
-  host: 'localhost',
-  user: 'root',
-  password: 'mongoisbetter',
-  database: 'fecimage'
-});
-
-connection.connect();
+const connection = require('./connection.js');
 
 const addToDB = (values, callback) => {
   connection.query(`INSERT IGNORE INTO inventory (id, links, sku) VALUES (${values.id}, '${values.links}', '${values.sku}')`, (err, result) => {

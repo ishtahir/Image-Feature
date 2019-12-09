@@ -8,7 +8,7 @@ const MainImage = props => {
         props.showModal ? props.changePic(props.img) : props.toggleModal(props.img);
       }}
     >
-      <img src={`../images/${props.img}`} />
+      <img src={`${props.img}`} width="500" height="500" />
     </button>
   );
 };

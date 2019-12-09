@@ -9,7 +9,7 @@ const ImageTile = props => {
       }}
     >
       <button className="btn-tile">
-        <img src={`../images/${props.src}`} data-src={props.src} className="img-tile" onMouseEnter={props.mouseEnterHandler} />
+        <img src={`${props.src}`} data-src={props.src} className="img-tile" onMouseEnter={props.mouseEnterHandler} />
       </button>
     </li>
   );

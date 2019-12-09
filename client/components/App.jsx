@@ -2,15 +2,17 @@ import React, { Component } from 'react';
 import MainImage from './MainImage.jsx';
 import ImageContainer from './ImageContainer.jsx';
 import Modal from './Modal.jsx';
+import axios from 'axios';
 
 class App extends Component {
   constructor() {
     super();
     this.state = {
-      main: 'img1.jpg',
-      images: ['img1.jpg', 'img2.jpg', 'img3.jpg', 'img4.jpg', 'img5.jpg'],
+      main: '../images/img1.jpg',
+      images: ['../images/img1.jpg', '../images/img2.jpg', '../images/img3.jpg', '../images/img4.jpg', '../images/img5.jpg'],
       showModal: false,
-      modalMain: ''
+      modalMain: '',
+      sku: ''
     };
   }
 
@@ -37,9 +39,25 @@ class App extends Component {
     this.setState({ modalMain: this.state.images[index] });
   }
 
+  handleInput(evt) {
+    this.setState({ sku: evt.target.value });
+  }
+
+  getImages() {
+    axios.post('/images', { sku: this.state.sku }).then(data => {
+      const links = JSON.parse(data.data[0].links);
+      this.setState({ images: links, main: links[0] });
+    });
+    this.setState({ sku: '' });
+  }
+
   render() {
     return (
       <div className="container">
+        <input type="text" placeholder="Enter sku #" onChange={this.handleInput.bind(this)} value={this.state.sku} />
+        <button className="search-btn" onClick={this.getImages.bind(this)}>
+          Search
+        </button>
         <MainImage
           img={this.state.main}
           toggleModal={this.toggleModal.bind(this)}

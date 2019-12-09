@@ -113,3 +113,7 @@ i.fas {
   color: #c5cbd5 !important;
   cursor: default;
 }
+
+.search-btn {
+  border: 1px solid #333;
+}

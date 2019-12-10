@@ -107,6 +107,7 @@ i.fas {
 
 .modal-img-container {
   display: flex;
+  justify-content: center;
 }
 
 .disabled {
@@ -116,4 +117,19 @@ i.fas {
 
 .search-btn {
   border: 1px solid #333;
+}
+
+.modal-main-container {
+  width: 80%;
+  height: 40%;
+}
+
+.modal-main-img {
+  width: 70%;
+  height: 300px;
+  object-fit: contain;
+}
+
+.main-img {
+  width: 500px;
 }

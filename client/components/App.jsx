@@ -8,11 +8,11 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      main: '../images/img1.jpg',
-      images: ['../images/img1.jpg', '../images/img2.jpg', '../images/img3.jpg', '../images/img4.jpg', '../images/img5.jpg'],
+      main: '',
+      images: [],
       showModal: false,
       modalMain: '',
-      sku: '08-014'
+      id: '53'
     };
   }
 
@@ -44,21 +44,27 @@ class App extends Component {
   }
 
   handleInput(evt) {
-    this.setState({ sku: evt.target.value });
+    this.setState({ id: evt.target.value });
   }
 
   getImages() {
-    axios.post('/images', { sku: this.state.sku }).then(data => {
-      const links = JSON.parse(data.data[0].links);
-      this.setState({ images: links, main: links[0] });
-    });
-    this.setState({ sku: '' });
+    axios
+      .get('/images', {
+        params: {
+          id: this.state.id
+        }
+      })
+      .then(data => {
+        const links = JSON.parse(data.data[0].links);
+        this.setState({ images: links, main: links[0] });
+      });
+    this.setState({ id: '' });
   }
 
   render() {
     return (
       <div className="container">
-        <input type="text" placeholder="Enter sku #" onChange={this.handleInput.bind(this)} value={this.state.sku} />
+        <input type="text" placeholder="Enter id #" onChange={this.handleInput.bind(this)} value={this.state.id} />
         <button className="search-btn" onClick={this.getImages.bind(this)}>
           Search
         </button>

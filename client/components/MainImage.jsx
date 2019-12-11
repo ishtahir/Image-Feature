@@ -1,4 +1,5 @@
 import React from 'react';
+import Draggable from 'react-draggable';
 
 const MainImage = props => {
   return (
@@ -12,6 +13,7 @@ const MainImage = props => {
         className={`image ${props.showModal ? 'modal-main-img' : 'main-img'}`}
         style={{ backgroundImage: `url(${props.img})` }}
         onClick={zoomHandler}
+        draggable
       ></div>
     </button>
   );
@@ -19,11 +21,13 @@ const MainImage = props => {
 
 const zoomHandler = evt => {
   if ((evt.target.classList.contains('modal-main-img') && evt.target.style.transform === '') || evt.target.style.transform === 'scale(1)') {
-    evt.target.style.transform = 'scale(1.5)';
+    evt.target.style.transform = 'scale(1.3)';
     evt.target.style.cursor = 'all-scroll';
-  } else if (evt.target.classList.contains('modal-main-img') && evt.target.style.transform === 'scale(1.5)') {
+    evt.target.style.backgroundSize = 'cover';
+  } else if (evt.target.classList.contains('modal-main-img') && evt.target.style.transform === 'scale(1.3)') {
     evt.target.style.transform = 'scale(1)';
     evt.target.style.cursor = 'zoom-in';
+    evt.target.style.backgroundSize = 'contain';
   }
 };
 

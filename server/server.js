@@ -17,12 +17,12 @@ app.get('/add', (req, res) => {
       }
     });
   });
-  res.send('help');
+  res.send();
 });
 
-app.post('/images', (req, res) => {
-  const sku = req.body.sku;
-  db.getFromDB(sku, (err, result) => {
+app.get('/images', (req, res) => {
+  const id = req.query.id;
+  db.getFromDB(id, (err, result) => {
     if (err) {
       res.send(err);
     } else {

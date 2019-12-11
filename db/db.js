@@ -10,8 +10,8 @@ const addToDB = (values, callback) => {
   });
 };
 
-const getFromDB = (sku, callback) => {
-  connection.query(`SELECT * FROM inventory WHERE sku='${sku}'`, (err, result) => {
+const getFromDB = (id, callback) => {
+  connection.query(`SELECT * FROM inventory WHERE id='${id}'`, (err, result) => {
     if (err) {
       callback(err, null);
     } else {

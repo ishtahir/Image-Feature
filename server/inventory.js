@@ -458,11 +458,11 @@ const inventory = [
   {
     id: 85,
     links: [
-      'https://www.outdoorlife.com/g00/3_c-5eee.wcblwwztqnm.kwu_/c-5UWZMXPMCA09x24pbbx78ax3ax2fx2feee.wcblwwztqnm.kwux2fzmaqhmzx2fFwthwk3Q7_RiLlTXqtY9FF-qrlGx3dx2f0846f408x2fnqtbmzax3anwkit(9888f188x3a9889f189)x2fizk-ivotmznqap-izk0-x78zwl-jwvvqmz.a1.iuihwviea.kwux2fx78cjtqkx2f1I3GZE3YAODZO2AKNMJYG52HMC.rx78ox3fq98k.uizsx3dquiom_$/$/$/$/$/$/$/$',
-      'https://images.gunsinternational.com/listings_sub/acc_2630/gi_100882698/Winchester-Model-1895-Lever-Action-Rifle-30-03-30-GOVT-1903_100882698_2630_AF54C9B300F220F0.jpg',
-      'https://images.gunsinternational.com/listings_sub/acc_2630/gi_100882698/Winchester-Model-1895-Lever-Action-Rifle-30-03-30-GOVT-1903_100882698_2630_FC7D17AA3C9152F3.jpg',
-      'https://images.gunsinternational.com/listings_sub/acc_2630/gi_100882698/Winchester-Model-1895-Lever-Action-Rifle-30-03-30-GOVT-1903_100882698_2630_AE2A48A85872DEC5.jpg',
-      'https://images.gunsinternational.com/listings_sub/acc_2630/gi_100882698/Winchester-Model-1895-Lever-Action-Rifle-30-03-30-GOVT-1903_100882698_2630_1CBCAC0E0A2A817B.jpg'
+      'https://images-na.ssl-images-amazon.com/images/I/61DSL0523CL._SL1000_.jpg',
+      'https://newcontent.westmarine.com/content/images/catalog/full/15203912_FUL.jpg',
+      'http://cdn.shopify.com/s/files/1/0080/7419/9137/products/2_5.13_1200x1200.jpg?v=1559212736',
+      'https://cdn10.bigcommerce.com/s-lkrsufl0/products/773/images/965/Watergun__31796.1530248654.1280.1280.png?c=2',
+      'https://i5.walmartimages.com/asr/a56cd3a5-cbe7-44ee-b92f-41407c27505f_1.3d9d9bca8f9e53c72c1b2c7085a000ad.jpeg'
     ],
     sku: '12-005'
   },

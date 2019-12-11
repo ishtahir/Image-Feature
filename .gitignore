@@ -5,7 +5,10 @@
 npm
 npm-debug.log
 node_modules/
+
+## my files
 db/connection.js
+public/bundle.js
 
 pids
 *.pid

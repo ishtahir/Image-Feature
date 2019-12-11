@@ -24,7 +24,13 @@ const Modal = props => {
               <i className={`fas fa-chevron-left ${props.modalMain === props.images[0] ? 'disabled' : ''}`}></i>
             </button>
             <div className="modal-main-container">
-              <MainImage img={props.modalMain} showModal={props.showModal} changePic={props.changePic} />
+              <MainImage
+                img={props.modalMain}
+                showModal={props.showModal}
+                changePic={props.changePic}
+                zoomed={props.zoomed}
+                toggleZoom={props.toggleZoom}
+              />
             </div>
             <button
               className={props.modalMain === props.images[props.images.length - 1] ? 'disabled' : ''}

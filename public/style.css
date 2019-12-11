@@ -122,12 +122,10 @@ i.fas {
 .modal-main-container {
   width: 80%;
   height: 30%;
-  touch-action: manipulation;
   overflow: hidden;
 }
 
 .modal-main-img {
-  transform: scale(1);
   cursor: zoom-in;
 }
 

@@ -46,7 +46,7 @@ class App extends Component {
   getImages() {
     this.setState({ id: Number(window.location.pathname.split('/')[2]) });
     axios
-      .get('/images', {
+      .get('http://westbuyimagefeature-env.j2pt9esa7r.us-east-2.elasticbeanstalk.com/images', {
         params: {
           id: this.state.id
         }

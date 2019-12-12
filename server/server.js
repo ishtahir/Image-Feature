@@ -4,9 +4,9 @@ const inventory = require('./inventory.js');
 const app = express();
 const cors = require('cors');
 
+app.use(cors());
 app.use(express.static('public'));
 app.use(express.json());
-app.use(cors());
 
 app.get('/add', (req, res) => {
   inventory.forEach(item => {

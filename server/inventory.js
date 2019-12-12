@@ -429,92 +429,77 @@ const inventory = [
   },
   {
     id: 81,
-    links: [
-      'https://www.outdoorlife.com/g00/3_c-5eee.wcblwwztqnm.kwu_/c-5UWZMXPMCA09x24pbbx78ax3ax2fx2feee.wcblwwztqnm.kwux2fzmaqhmzx2fP0rc-z9oHSIBv0_7yNmFvgF5Xkax3dx2f0846f368x2fnqtbmzax3anwkit(9888f069x3a9889f060)x2fizk-ivotmznqap-izk0-x78zwl-jwvvqmz.a1.iuihwviea.kwux2fx78cjtqkx2f35S0DCPASAMDVYKGICRDBKCJEY.rx78ox3fq98k.uizsx3dquiom_$/$/$/$/$/$/$/$'
-    ],
+    links: ['https://west-buy-ish.s3.us-east-2.amazonaws.com/images/remingtonRollingBlock.jpg'],
     sku: '12-001'
   },
   {
     id: 82,
-    links: [
-      'https://www.outdoorlife.com/g00/3_c-5eee.wcblwwztqnm.kwu_/c-5UWZMXPMCA09x24pbbx78ax3ax2fx2feee.wcblwwztqnm.kwux2fzmaqhmzx2fEpTuGfYj_KIUAXomYWdOdqZsqkMx3dx2f0846f574x2fnqtbmzax3anwkit(9888f163x3a9889f164)x2fizk-ivotmznqap-izk0-x78zwl-jwvvqmz.a1.iuihwviea.kwux2fx78cjtqkx2fZW2OTPANQXX1V0MFDY2QGO3BSG.rx78ox3fq98k.uizsx3dquiom_$/$/$/$/$/$/$/$'
-    ],
+    links: ['https://west-buy-ish.s3.us-east-2.amazonaws.com/images/winchester1873.jpeg'],
     sku: '12-002'
   },
   {
     id: 83,
-    links: [
-      'https://www.outdoorlife.com/g00/3_c-5eee.wcblwwztqnm.kwu_/c-5UWZMXPMCA09x24pbbx78ax3ax2fx2feee.wcblwwztqnm.kwux2fzmaqhmzx2fS9yaBbDlkFahZGn97TWiQKV9sFex3dx2f0846f682x2fnqtbmzax3anwkit(448f035x3a449f036)x2fizk-ivotmznqap-izk0-x78zwl-jwvvqmz.a1.iuihwviea.kwux2fx78cjtqkx2fRB2CFLNY0FYJTYBQWO5FDIRFXY.rx78ox3fq98k.uizsx3dquiom_$/$/$/$/$/$/$/$'
-    ],
+    links: ['https://west-buy-ish.s3.us-east-2.amazonaws.com/images/remingtonRevolver.jpg'],
     sku: '12-003'
   },
   {
     id: 84,
-    links: [
-      'https://www.outdoorlife.com/g00/3_c-5eee.wcblwwztqnm.kwu_/c-5UWZMXPMCA09x24pbbx78ax3ax2fx2feee.wcblwwztqnm.kwux2fzmaqhmzx2fftV6H_PeQJRyRT8muoQZGgKNG8Cx3dx2f0846f9942x2fnqtbmzax3anwkit(9888f341x3a9889f342)x2fizk-ivotmznqap-izk0-x78zwl-jwvvqmz.a1.iuihwviea.kwux2fx78cjtqkx2fZEKM1IVXP1ALNJL0KNYJQSIQBU.rx78ox3fq98k.uizsx3dquiom_$/$/$/$/$/$/$/$'
-    ],
+    links: ['https://west-buy-ish.s3.us-east-2.amazonaws.com/images/navyRevolver.jpeg'],
     sku: '12-004'
   },
   {
     id: 85,
     links: [
-      'https://images-na.ssl-images-amazon.com/images/I/61DSL0523CL._SL1000_.jpg',
-      'https://newcontent.westmarine.com/content/images/catalog/full/15203912_FUL.jpg',
-      'http://cdn.shopify.com/s/files/1/0080/7419/9137/products/2_5.13_1200x1200.jpg?v=1559212736',
-      'https://cdn10.bigcommerce.com/s-lkrsufl0/products/773/images/965/Watergun__31796.1530248654.1280.1280.png?c=2',
-      'https://i5.walmartimages.com/asr/a56cd3a5-cbe7-44ee-b92f-41407c27505f_1.3d9d9bca8f9e53c72c1b2c7085a000ad.jpeg'
+      'https://west-buy-ish.s3.us-east-2.amazonaws.com/images/winchester1895.jpg',
+      'https://ancestryguns.s3.amazonaws.com/2019/08/Winchester-Model-1895-Rifle-CR-Antique002.jpg',
+      'https://i.pinimg.com/originals/91/c4/6d/91c46dab0c59b3b1482130c9ddab4dc5.jpg',
+      'https://news.guns.com/wp-content/uploads/2013/07/1895_Cut-Away_View.jpg'
     ],
     sku: '12-005'
   },
   {
     id: 86,
-    links: [
-      'https://www.outdoorlife.com/g00/3_c-5eee.wcblwwztqnm.kwu_/c-5UWZMXPMCA09x24pbbx78ax3ax2fx2feee.wcblwwztqnm.kwux2fzmaqhmzx2f51naWyyLOWMqo1bYsf7XhguIS1Cx3dx2f0846f746x2fnqtbmzax3anwkit(9888f246x3a9889f247)x2fizk-ivotmznqap-izk0-x78zwl-jwvvqmz.a1.iuihwviea.kwux2fx78cjtqkx2fOIXHHV0SN3RHG2BGXHEJ1BPJCQ.rx78ox3fq98k.uizsx3dquiom_$/$/$/$/$/$/$/$'
-    ],
+    links: ['https://west-buy-ish.s3.us-east-2.amazonaws.com/images/hawkinRifle.jpg'],
     sku: '12-006'
   },
   {
     id: 87,
-    links: [
-      'https://www.outdoorlife.com/g00/3_c-5eee.wcblwwztqnm.kwu_/c-5UWZMXPMCA09x24pbbx78ax3ax2fx2feee.wcblwwztqnm.kwux2fzmaqhmzx2fyZBwjkofV1zP-9lOwHOp_-SNTp2x3dx2f0846f366x2fnqtbmzax3anwkit(9888f062x3a9889f063)x2fizk-ivotmznqap-izk0-x78zwl-jwvvqmz.a1.iuihwviea.kwux2fx78cjtqkx2fI5WJ240IRWXYMDP2ST3LTZ1YCU.rx78ox3fq98k.uizsx3dquiom_$/$/$/$/$/$/$/$'
-    ],
+    links: ['https://west-buy-ish.s3.us-east-2.amazonaws.com/images/sharpsModel.jpg'],
     sku: '12-007'
   },
   {
     id: 88,
-    links: ['https://www.riverjunction.com/Heavy-Silver-watch-chain-_p_4469.html'],
+    links: ['https://www.riverjunction.com/assets/images/4469/watchchain2-1.jpg'],
     sku: '12-008'
   },
   {
     id: 89,
-    links: [
-      'https://www.zazzle.com/vintage_1905_clark_stanleys_snake_oil_liniment_liquor_bottle_label-256618523060475171?rf=238840279726397180&tc=Cj0KCQiAt_PuBRDcARIsAMNlBdqCVmf0oPKkOAsDrvVsdGmsvwWt_Ks6FUpJvkKoUw506nKO5vf0Hj0aAmB9EALw_wcB&utm_source=google&utm_medium=cpc&utm_campaign=us_shopping&utm_term=z256618523060475171&ca_chid=2001810&ca_source=gaw&ca_ace=&ca_nw=g&ca_dev=c&ca_pl=&ca_pos=1o5&ca_cid=303811433406&ca_agid=59506863014&ca_caid=1600127754&ca_adid=303811433406&ca_kwt=&ca_mt=&ca_fid=&ca_tid=aud-486312179911:pla-541616255956&ca_lp=9060225&ca_li=&ca_devm=&ca_plt=&gclsrc=aw.ds&gclid=Cj0KCQiAt_PuBRDcARIsAMNlBdqCVmf0oPKkOAsDrvVsdGmsvwWt_Ks6FUpJvkKoUw506nKO5vf0Hj0aAmB9EALw_wcB'
-    ],
+    links: ['https://images-na.ssl-images-amazon.com/images/I/61XZS0IikiL._SL1000_.jpg'],
     sku: '12-009'
   },
   {
     id: 90,
-    links: ['https://www.riverjunction.com/5188'],
+    links: ['https://www.riverjunction.com/assets/images/5188/snuffbox-1.jpg'],
     sku: '12-010'
   },
   {
     id: 91,
-    links: ['https://www.riverjunction.com/5300'],
+    links: ['https://www.riverjunction.com/assets/images/5300/billyclub-2.jpg'],
     sku: '12-011'
   },
   {
     id: 92,
-    links: ['https://www.riverjunction.com/5227'],
+    links: ['https://www.riverjunction.com/assets/images/5227/powderflask-1.jpg'],
     sku: '12-012'
   },
   {
     id: 93,
-    links: ['https://www.riverjunction.com/BL-5129'],
+    links: ['https://www.riverjunction.com/assets/images/5129/headstall-1.jpg'],
     sku: '12-013'
   },
   {
     id: 94,
-    links: ['https://www.riverjunction.com/1180'],
+    links: ['https://cdn.shopify.com/s/files/1/0010/5578/4988/products/header_87a470f0-0bc0-4e36-8e7a-91b078938b1a.png'],
     sku: '12-014'
   },
   {
@@ -524,29 +509,27 @@ const inventory = [
   },
   {
     id: 96,
-    links: ['https://www.midwayusa.com/product/1001707083'],
+    links: ['https://west-buy-ish.s3.us-east-2.amazonaws.com/images/horandy405.jpg'],
     sku: '12-016'
   },
   {
     id: 97,
-    links: ['https://www.cheaperthandirt.com/hornady-leverevolution-.35-remington-ammunition-20-rounds-ftx--200-grains-82735/FC-090255827354.html'],
+    links: ['https://west-buy-ish.s3.us-east-2.amazonaws.com/images/horandyAmmo.jpg'],
     sku: '12-017'
   },
   {
     id: 98,
-    links: ['https://www.midsouthshooterssupply.com/item/00002ac1597at/54-caliber-348-grain-aero-tip-copper-mag-power-belt-(15-per-pack)'],
+    links: ['https://www.midsouthshooterssupply.com/images/product_images/002-ac1597at/002-ac1597at.jpg'],
     sku: '12-018'
   },
   {
     id: 99,
-    links: [
-      'https://www.hearthsong.com/p/731229?aff=10051&CAWELAID=530007750000016352&CAGPSPN=pla&CAAGID=80900530520&CATCI=pla-300711978879&gclid=Cj0KCQiA2vjuBRCqARIsAJL5a-L2oeACQKe1Pattd205wIrxwy3eN25fC4Jl4b-9rmNSm-XAWyx447kaAjJoEALw_wcB'
-    ],
+    links: ['https://www.hearthsong.com/medias/sys_master/images/images/h2f/h9d/11263043371038/730001-HSHO14-CV-01-191-merged.jpg'],
     sku: '12-019'
   },
   {
     id: 100,
-    links: ['https://media.istockphoto.com/photos/human-hand-gesture-picture-id615992002'],
+    links: ['https://west-buy-ish.s3.us-east-2.amazonaws.com/images/finger-gun.png'],
     sku: '12-020'
   }
 ];

@@ -9,6 +9,7 @@ node_modules/
 ## my files
 db/connection.js
 public/bundle.js
+public/image-feature-bundle.js
 
 pids
 *.pid

@@ -43,10 +43,6 @@ class App extends Component {
     this.setState({ modalMain: this.state.images[index] });
   }
 
-  handleInput(evt) {
-    this.setState({ id: evt.target.value });
-  }
-
   getImages() {
     axios
       .get('/images', {
@@ -64,10 +60,6 @@ class App extends Component {
   render() {
     return (
       <div className="container">
-        <input type="text" placeholder="Enter id #" onChange={this.handleInput.bind(this)} value={this.state.id} />
-        <button className="search-btn" onClick={this.getImages.bind(this)}>
-          Search
-        </button>
         <MainImage
           img={this.state.main}
           toggleModal={this.toggleModal.bind(this)}

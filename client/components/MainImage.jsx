@@ -1,5 +1,4 @@
 import React from 'react';
-import Draggable from 'react-draggable';
 
 const MainImage = props => {
   return (
@@ -13,7 +12,6 @@ const MainImage = props => {
         className={`image ${props.showModal ? 'modal-main-img' : 'main-img'}`}
         style={{ backgroundImage: `url(${props.img})` }}
         onClick={zoomHandler}
-        draggable
       ></div>
     </button>
   );

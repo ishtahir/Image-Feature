@@ -44,6 +44,7 @@ class App extends Component {
   }
 
   getImages() {
+    this.setState({ id: Number(window.location.pathname.split('/')[2]) });
     axios
       .get('/images', {
         params: {

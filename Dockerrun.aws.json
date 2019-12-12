@@ -1,0 +1,11 @@
+{
+  "AWSEBDockerrunVersion": 1,
+  "Image": {
+    "Name": "ishtahir/fec-image"
+  },
+  "Ports": [
+    {
+      "ContainerPort": "4015"
+    }
+  ]
+}

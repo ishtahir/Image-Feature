@@ -2,7 +2,7 @@ var path = require('path');
 var SRC_DIR = path.join(__dirname, '/client');
 var DIST_DIR = path.join(__dirname, '/public');
 
-module.exports = {
+const config = {
   entry: `${SRC_DIR}/index.jsx`,
 
   output: {
@@ -33,3 +33,9 @@ module.exports = {
     ]
   }
 };
+
+if (process.env.NODE_ENV === 'production') {
+  config['mode'] = 'production';
+}
+
+module.exports = config;

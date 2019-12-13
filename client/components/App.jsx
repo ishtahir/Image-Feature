@@ -12,7 +12,7 @@ class App extends Component {
       images: [],
       showModal: false,
       modalMain: '',
-      id: '53'
+      id: ''
     };
   }
 
@@ -44,18 +44,17 @@ class App extends Component {
   }
 
   getImages() {
-    this.setState({ id: Number(window.location.pathname.split('/')[2]) });
+    const id = Number(window.location.pathname.split('/')[2]);
     axios
       .get('http://westbuyimagefeature-env.j2pt9esa7r.us-east-2.elasticbeanstalk.com/images', {
         params: {
-          id: this.state.id
+          id
         }
       })
       .then(data => {
         const links = JSON.parse(data.data[0].links);
         this.setState({ images: links, main: links[0] });
       });
-    this.setState({ id: '' });
   }
 
   render() {

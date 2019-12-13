@@ -54,6 +54,7 @@
   .img-tile {
     width: 45px;
     height: 45px;
+    object-fit: contain;
     cursor: pointer;
   }
 

@@ -9,7 +9,12 @@ const Modal = props => {
   } else {
     document.body.style.overflow = 'hidden';
     return (
-      <div className="modal-bg">
+      <div
+        className="modal-bg"
+        onClick={evt => {
+          evt.target.classList.contains('modal-bg') ? props.toggleModal() : null;
+        }}
+      >
         <div className="modal-content">
           <div className="close-btn" onClick={props.toggleModal}>
             ×

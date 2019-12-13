@@ -11,8 +11,7 @@ class App extends Component {
       main: '',
       images: [],
       showModal: false,
-      modalMain: '',
-      id: ''
+      modalMain: ''
     };
   }
 

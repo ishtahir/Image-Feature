@@ -10,9 +10,8 @@
   }
 
   .container {
-    width: 550px;
+    width: 1000px;
     height: 600px;
-    border: 1px solid #eee;
   }
 
   .center {
@@ -72,11 +71,12 @@
     position: relative;
     background-color: #fff;
     text-align: center;
-    max-height: 600px;
+    max-height: 3000px;
     padding: 30px 20px;
     margin: 15px 15px 130px;
     width: auto;
     overflow: auto;
+    z-index: 100;
   }
 
   .modal-bg .modal-content .close-btn {
@@ -131,13 +131,9 @@
     cursor: zoom-in;
   }
 
-  .main-img {
-    width: 500px;
-  }
-
   .image {
-    width: 500px;
-    height: 500px;
+    width: 600px;
+    height: 600px;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;

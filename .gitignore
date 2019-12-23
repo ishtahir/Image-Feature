@@ -10,6 +10,7 @@ node_modules/
 db/connection.js
 public/bundle.js
 public/image-feature-bundle.js
+proxy/bundles
 
 pids
 *.pid

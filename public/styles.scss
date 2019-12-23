@@ -71,11 +71,12 @@
     position: relative;
     background-color: #fff;
     text-align: center;
-    max-height: 600px;
+    max-height: 3000px;
     padding: 30px 20px;
     margin: 15px 15px 130px;
     width: auto;
     overflow: auto;
+    z-index: 100;
   }
 
   .modal-bg .modal-content .close-btn {

@@ -29,9 +29,9 @@ The image display is a microservice of West Buy, which is a western themed clone
   </tr>
   <tr>
     <td></td>
-    <td><img src="https://raw.githubusercontent.com/hratx-blue-ocean/Alcove/master/client/dist/assets/stack_images/expressjs.png" alt="Express" width="155" height="179"></td>
+    <td><img src="https://raw.githubusercontent.com/hratx-blue-ocean/Alcove/master/client/dist/assets/stack_images/expressjs.png" alt="Express" width="155"></td>
     <td></td>
-    <td><img src="https://raw.githubusercontent.com/hratx-blue-ocean/Alcove/master/client/dist/assets/stack_images/docker.png" alt="Docker" width="155" height="179"></td>
+    <td><img src="https://raw.githubusercontent.com/hratx-blue-ocean/Alcove/master/client/dist/assets/stack_images/docker.png" alt="Docker" width="155"></td>
   </tr>
 </table>
 

@@ -16,4 +16,4 @@ The image display is a microservice of West Buy, which is a western themed clone
 ## Tech Stack
 Front-End | Back-End | Database | Deployment
 --- | --- | --- | ---
-!(https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-128.png) | !(https://cdn4.iconfinder.com/data/icons/logos-3/456/nodejs-new-pantone-black-128.png) | !(https://cdn4.iconfinder.com/data/icons/logos-3/181/MySQL-128.png) | !(https://upload.wikimedia.org/wikipedia/commons/thumb/archive/1/1d/20160608202754%21AmazonWebservices_Logo.svg/120px-AmazonWebservices_Logo.svg.png)
+![React](https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-128.png) | ![Node](https://cdn4.iconfinder.com/data/icons/logos-3/456/nodejs-new-pantone-black-128.png) | ![MySQL](https://cdn4.iconfinder.com/data/icons/logos-3/181/MySQL-128.png) | ![AWS](https://upload.wikimedia.org/wikipedia/commons/thumb/archive/1/1d/20160608202754%21AmazonWebservices_Logo.svg/120px-AmazonWebservices_Logo.svg.png)

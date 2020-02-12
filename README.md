@@ -22,9 +22,9 @@ The image display is a microservice of West Buy, which is a western themed clone
     <th>Deployment</th>
   </tr>
   <tr>
-    <td><img src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-64.png" alt="React"></td>
+    <td><img src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-128.png" alt="React"></td>
     <td><img src="https://cdn4.iconfinder.com/data/icons/logos-3/456/nodejs-new-pantone-black-128.png" alt="Node"></td>
-    <td><img src="https://cdn4.iconfinder.com/data/icons/logos-3/181/MySQL-128.png" alt="MySQL">/td>
+    <td><img src="https://cdn4.iconfinder.com/data/icons/logos-3/181/MySQL-128.png" alt="MySQL"></td>
     <td><img src="https://raw.githubusercontent.com/hratx-blue-ocean/Alcove/master/client/dist/assets/stack_images/elastic-beanstalk.png" alt="Elastic Beanstalk"></td>
   </tr>
   <tr>

@@ -25,13 +25,13 @@ The image display is a microservice of West Buy, which is a western themed clone
     <td><img src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-128.png" alt="React"></td>
     <td><img src="https://cdn4.iconfinder.com/data/icons/logos-3/456/nodejs-new-pantone-black-128.png" alt="Node"></td>
     <td><img src="https://cdn4.iconfinder.com/data/icons/logos-3/181/MySQL-128.png" alt="MySQL"></td>
-    <td><img src="https://raw.githubusercontent.com/hratx-blue-ocean/Alcove/master/client/dist/assets/stack_images/elastic-beanstalk.png" alt="Elastic Beanstalk"></td>
+    <td><img src="https://raw.githubusercontent.com/hratx-blue-ocean/Alcove/master/client/dist/assets/stack_images/elastic-beanstalk.png" alt="Elastic Beanstalk" width="155" height="179"></td>
   </tr>
   <tr>
     <td></td>
-    <td><img src="https://raw.githubusercontent.com/hratx-blue-ocean/Alcove/master/client/dist/assets/stack_images/expressjs.png" alt="Express" width="128px"></td>
+    <td><img src="https://raw.githubusercontent.com/hratx-blue-ocean/Alcove/master/client/dist/assets/stack_images/expressjs.png" alt="Express" width="155" height="179"></td>
     <td></td>
-    <td><img src="https://raw.githubusercontent.com/hratx-blue-ocean/Alcove/master/client/dist/assets/stack_images/docker.png" alt="Docker" width="128px"></td>
+    <td><img src="https://raw.githubusercontent.com/hratx-blue-ocean/Alcove/master/client/dist/assets/stack_images/docker.png" alt="Docker" width="155" height="179"></td>
   </tr>
 </table>
 
